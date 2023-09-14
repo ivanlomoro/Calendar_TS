@@ -1,0 +1,62 @@
+/* Image Reset*/
+img, picture, video, iframe, figure {
+    max-width: 100%;
+    width: 100%;
+    display: block;
+}
+
+/* Anchor Reset */
+a {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    font-size: inherit;
+}
+
+p a {
+    display: inline;
+}
+
+/* Lists Reset */
+li {
+    list-style-type: none;
+}
+
+/* Smooth Scroll  */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Text Reset */
+h1, h2, h3, h4, h5, h6, p, span, a, strong, blockquote, i, b, u, em {
+    font-size: 1em;
+    font-weight: inherit;
+    font-style: inherit;
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Form and fonts Reset*/
+form, input, textarea, select, button, label {
+    font-family: inherit;
+    font-size: inherit;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+    background-color: transparent;
+    color: inherit;
+    display: block;
+}
+
+/* Table Reset */
+table, tr, td {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* SVG Reset*/
+svg {
+    width: 100%;
+    display: block;
+    fill: currentColor;
+}
